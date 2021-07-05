@@ -17,6 +17,7 @@ h1{
 .describe-text{
     width:50%;
     padding-left: 40px;
+    padding: 0px 20px 0px 40px;
 }
 .describe-image{
     width:50%;
@@ -44,7 +45,7 @@ h1{
 }
 .second-section{
     display: flex;
-    margin-top: 40px;
+    margin: 80px 0px 80px 0px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -55,6 +56,38 @@ h1{
 .describe3{
     padding-right: 40px;
 }
-
-
+.container{
+    display: flex;
+}
+.container div{
+    margin: 0px 0px 0px 28px;
+    width: 40%;
+    box-shadow: 5px 7px 40px gray;
+}
+.container h3, .container p{
+    text-align: justify;
+    padding-right: 10px;
+}
+.container h1{
+    font-weight: 500;
+}
+.border-color-one{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, orange);
+    border-image-slice: 1;
+}
+.border-color-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.third-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 85%;
+}
+footer{
+    text-align: center;
+    margin: 165px 0px 20px 0px;
+}
 
