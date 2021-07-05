@@ -34,7 +34,7 @@ h1{
 .describe-text p{
     text-align: justify;
 }
-.describe-text a{
+.link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     color: white;
@@ -42,8 +42,19 @@ h1{
     border-radius: 5%;
     font-weight:700;
 }
-
-
+.second-section{
+    display: flex;
+    margin-top: 40px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.describe2{
+    padding-right:0px;
+}
+.describe3{
+    padding-right: 40px;
+}
 
 
 
